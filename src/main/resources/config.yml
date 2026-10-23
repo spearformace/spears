@@ -1,0 +1,19 @@
+# Spear reach in blocks (vanilla spear = 4.5)
+reach: 4.5
+
+# Cancel the sword sweep effect on spears (vanilla spears do not sweep)
+disable-sweep: true
+
+# If your server already has vanilla spears, this plugin switches itself off.
+# Set to true to use these custom spears anyway.
+force-custom-spears: false
+
+lunge:
+  # Forward speed in blocks per second for Lunge I / II / III
+  speeds: [9.16, 18.32, 27.48]
+  # Multiply all lunge speeds (lower this if it feels too strong)
+  velocity-multiplier: 1.0
+  # Extra push while in the air
+  air-multiplier: 1.5
+  # Hunger points used per lunge level (1 / 2 / 3 for Lunge I / II / III)
+  hunger-per-level: 1
